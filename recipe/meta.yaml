@@ -1,5 +1,5 @@
 {% set name = "ema_pytorch" %}
-{% set version = "0.7.7" %}
+{% set version = "0.7.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ema_pytorch-{{ version }}.tar.gz
-  sha256: ecce0e3439e03c00f95a253d6f15ada415fcab09c2c0bd15f30349d375c69ad7
+  sha256: b674e85533e9a286c03d7d7a1670a0bf26482afcab2827ad4c89648813a98464
 
 build:
   number: 0
