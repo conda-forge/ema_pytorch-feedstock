@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ema_pytorch
-  version: "0.7.9"
+  version: "0.8.2"
   python_min: "3.10"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ema_pytorch-${{ version }}.tar.gz
-  sha256: a8ccdf2eeecce5489de02fc7c9776ef55400220afff92b8223f7516cb570b594
+  sha256: 04ef0fb75299bba700ea8ec73fba3b22aaab8e888d5fffa61ba17db7cafc93fb
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
