@@ -20,9 +20,9 @@ build:
 
 requirements:
   host:
+    - hatchling
     - pip
     - python ${{ python_min }}.*
-    - setuptools
   run:
     - numpy
     - python >=${{ python_min }}
