@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ema_pytorch
-  version: "0.8.2"
+  version: "0.8.3"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ema_pytorch-${{ version }}.tar.gz
-  sha256: 04ef0fb75299bba700ea8ec73fba3b22aaab8e888d5fffa61ba17db7cafc93fb
+  sha256: 82600dd5da86aff3ac2ff641b9df206bc727da6468cb2901bfdab6afd36befb8
 
 build:
   number: 0
